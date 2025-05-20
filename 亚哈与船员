@@ -1,0 +1,13 @@
+```mermaid
+flowchart LR
+    %% Greimas' Actantial Model
+    A[Sender<br>(Ahab/Industrial Civilization/Fate)] --> B[Receiver<br>(Crew Group)]
+    A --> C[Subject<br>(Ahab: Vengeful Agent)]
+    C --> D[Object<br>(Moby Dick: Target of Vengeance)]
+    C --> E[Helper<br>(Whaling Tools/Conformist Crew)]
+    C --> F[Opponent<br>(Starbuck/Moby Dick/Ishmael)]
+    
+    %% Contradictory Relationships
+    A -- Dual Identity --> C[Ahab: Both Sender and Receiver of Industrial Ideology]
+    F -- Multiple Resistances --> C
+    D -- Symbolic Conflict --> C
